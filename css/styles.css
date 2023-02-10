@@ -1,0 +1,151 @@
+#title{
+ background-color: #ff4c68;
+}
+h1{
+    font-family:"Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+.navbar-nav ml-auto{
+    text-align: end;
+    display: flex;
+    position:absolute;
+}
+body{
+    font-family: "Montserrat-light";
+}
+.nav-item{
+    text-align: right;
+    align-items: flex-end;
+    position: relative;
+    left: 600px;
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+.navbar{
+    margin-bottom: 4.9rem;
+}
+.title-image{
+    max-width: 90%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index:1;
+}
+.download-btn{
+    margin-left: 3%;
+}
+.download-btn1{
+    margin-left: 6%;
+}
+/* icon is coloured here */
+.icon-color{
+    color: #7c0416;
+    padding: 1rem;
+}
+/* icons p text is sized here */
+.iconusedtext p{
+    font-size: 1rem;
+}
+
+#features{
+    padding:7% 15% ;
+    background-color: white;
+    position:relative;
+     z-index: 1;
+
+}
+p{
+    color: grey;
+}
+h3{
+    font-size: 2rem;
+}
+.icon:hover{
+    color: purple;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+/* testimonials section */
+#testimonials{
+    padding: 3% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* testimonials-img section */
+.testimonials-img{
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;   
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/*i added this style to move the buttons on the slideshow away from the text with padding */
+#pricing{
+    padding: 100px;
+}
+.largebtn{
+    width: 100%;
+}
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: "Montserrat-Black";
+    color:white;
+    line-height: 1.5;
+    font-size: 3rem;
+    position: relative;
+    padding-left: 650px;  
+
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    padding: 7% 15%;
+    width: 100%;
+    background-color: white;
+}
+.iconcls{
+    margin: 2%;
+}

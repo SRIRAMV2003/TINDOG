@@ -1,2 +1,1 @@
-# TINDOG
-A UI WEB PAGE WITH HTML,CSS, JS
+TinDog Starting Files
